@@ -47,7 +47,7 @@ const grid = () => {
         </div>
         <div className="col-sm bordered">
           <h3>BUTTONS</h3>
-          <div class="btn-group" role="group" aria-label="Basic example">
+          <div className="btn-group" role="group" aria-label="Basic example">
             <button type="button" className="btn btn-primary">Nappi 1</button>
             <button type="button" className="btn btn-secondary">Nappi 2</button>
             <button type="button" className="btn btn-warning">Nappi 3</button>

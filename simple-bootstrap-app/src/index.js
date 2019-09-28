@@ -18,7 +18,7 @@ const result = getMaterialAlpha.safeCall({});
 console.log('result', result);
 
 const match1 = number.find(x => x < 0);
-const match2 = findOrDefault(number, predicate, defaultValue)//.findOrDefault(x => x < 0, -Infinity);
+const match2 = number.findOrDefault(x => x < 0, -Infinity);
 
 
 console.log('matches', match1, match2);
